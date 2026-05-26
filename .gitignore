@@ -1,0 +1,21 @@
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Build / tooling (if added later)
+node_modules/
+dist/
+.env
+.env.local
+
+# Logs
+*.log
+
+# GitHub Pages — nothing to ignore by default, all files are public

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Page Not Found (404) | EK Van Services</title>
+  <meta name="description" content="The page you're looking for doesn't exist. Return to EK Van Services homepage." />
+  <meta name="robots" content="noindex, follow" />
+  <link rel="canonical" href="https://ekvanservices.co.uk/404.html" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@300;700;900&family=Barlow:wght@300;400&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --blue:#1a6fdb; --blue-lt:#3b8ef0; --blue-glow:rgba(26,111,219,.3);
+      --dark:#07090f; --white:#fff; --offwhite:#c6d3e6; --muted:#6e80a0;
+      --line:rgba(255,255,255,.07);
+    }
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;}
+    body {
+      font-family:'Barlow',sans-serif;
+      background:var(--dark); color:var(--offwhite);
+      min-height:100svh;
+      display:flex; flex-direction:column; align-items:center; justify-content:center;
+      text-align:center; padding:40px 24px;
+      background-image:radial-gradient(ellipse 70% 70% at 50% 60%, rgba(26,111,219,.08) 0%, transparent 70%);
+    }
+    .num {
+      font-family:'Barlow Condensed',sans-serif;
+      font-weight:900; font-size:clamp(8rem,22vw,15rem);
+      line-height:1; color:rgba(26,111,219,.13);
+      letter-spacing:-.03em; user-select:none;
+      animation:pulse 4s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%,100%{color:rgba(26,111,219,.13);}
+      50%{color:rgba(26,111,219,.22);}
+    }
+    h1 {
+      font-family:'Barlow Condensed',sans-serif; font-weight:700;
+      font-size:clamp(1.5rem,4vw,2.2rem);
+      text-transform:uppercase; color:var(--white);
+      letter-spacing:.05em; margin-top:-14px; margin-bottom:14px;
+    }
+    p { color:var(--muted); font-size:.96rem; max-width:360px; margin:0 auto 34px; line-height:1.72; }
+    .acts { display:flex; gap:12px; flex-wrap:wrap; justify-content:center; }
+    .btn {
+      display:inline-flex; align-items:center; gap:8px;
+      font-family:'Barlow Condensed',sans-serif; font-weight:700;
+      font-size:.92rem; letter-spacing:.09em; text-transform:uppercase;
+      padding:13px 26px; border-radius:6px; transition:background .2s, box-shadow .2s;
+    }
+    .bp { background:var(--blue); color:#fff; }
+    .bp:hover { background:var(--blue-lt); box-shadow:0 8px 26px var(--blue-glow); }
+    .bg { border:1px solid var(--line); color:var(--offwhite); }
+    .bg:hover { border-color:rgba(255,255,255,.2); color:var(--white); }
+    .van { font-size:3.5rem; margin-bottom:12px; }
+  </style>
+</head>
+<body>
+  <div class="van" aria-hidden="true">🚐</div>
+  <div class="num" aria-hidden="true">404</div>
+  <h1>Page Not Found</h1>
+  <p>Looks like this page took a wrong turn somewhere around Glasgow. Let's get you back on the road.</p>
+  <div class="acts">
+    <a href="/" class="btn bp">Back to Home</a>
+    <a href="tel:07832655209" class="btn bg">Call Us</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# Block any future admin or staging paths
+Disallow: /admin/
+Disallow: /staging/
+Disallow: /.git/
+
+# Sitemap location
+Sitemap: https://ekvanservices.co.uk/sitemap.xml
