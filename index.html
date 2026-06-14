@@ -298,6 +298,12 @@
       background: linear-gradient(90deg, var(--blue), var(--blue-lt));
     }
     .card-icon { margin-bottom: 16px; }
+    .card-icon img {
+      border-radius: 50%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      border: 2px solid rgba(26,111,219,.35);
+    }
     .card h2 {
       font-family: var(--font-h); font-weight: 800; font-size: 1.5rem;
       text-transform: uppercase; color: var(--white); text-align: center;
@@ -707,7 +713,7 @@
       <!-- right card -->
       <div class="card anim d4" aria-hidden="true">
         <div class="card-icon">
-          <img src="/assets/images/hero-sepa.jpg" alt="EK Van Services van" width="320" height="180" style="width:100%;max-width:320px;height:auto;margin:0 auto 4px;display:block;filter:drop-shadow(0 8px 32px rgba(26,111,219,.35));" />
+          <img src="/assets/images/hero-sepa.jpg" alt="EK Van Services van" width="220" height="220" style="width:220px;height:220px;max-width:100%;margin:0 auto 4px;display:block;filter:drop-shadow(0 8px 32px rgba(26,111,219,.35));" />
         </div>
         <h2>EK Van Services</h2>
         <p class="card-sub">Glasgow &amp; Surrounding Areas</p>
